@@ -12,3 +12,7 @@ Data Augmentation: To enhance the model’s robustness and to generalize better,
 Horizontal flipping to allow the model to recognize players regardless of their orientation. Zooming (up to 25%) to train the model to detect players at various scales. Brightness adjustment (ranging from -15% to +15%) to simulate different lighting conditions that might occur in gameplay. This process generated 3 augmented images per original, totaling 654 training images.
 
 Training Set Distribution: The dataset was split into 88% training (573 images), 8% validation (54 images), and 4% test sets (27 images).
+
+![Screenshot 2024-06-11 213505](https://github.com/mafazsyed/YOLOv8-CS2-Player-Recognition/assets/120568449/9bf8624d-5573-4d54-89fd-ed3808c4b430)
+
+![Screenshot 2024-06-11 213535](https://github.com/mafazsyed/YOLOv8-CS2-Player-Recognition/assets/120568449/4cbfd3f1-33c3-44a9-b761-cff79d21d9c4)
