@@ -7,7 +7,6 @@ Data Preparation: From these frames, 218 images containing visible players were 
 
 Data Labeling: Each selected frame was manually annotated with bounding boxes around the players using RoboFlow, which facilitated precise and efficient labeling.
 
-Screenshot-2024-06-11-202436
 Data Augmentation: To enhance the model’s robustness and to generalize better, the following augmentation techniques were applied:
 
 Horizontal flipping to allow the model to recognize players regardless of their orientation. Zooming (up to 25%) to train the model to detect players at various scales. Brightness adjustment (ranging from -15% to +15%) to simulate different lighting conditions that might occur in gameplay. This process generated 3 augmented images per original, totaling 654 training images.
